@@ -19,3 +19,4 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 teste de commit
 teste push
+teste brunch new
