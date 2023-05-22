@@ -21,13 +21,12 @@ public class Aluno extends Pessoa {
     
     @Override
     public void mostrarDados(){
-        System.out.println("=============ALUNO=============");
         System.out.println("Nome:" + this.getNome());
         System.out.println("Endereço:" + this.getEndereco());
         System.out.println("Telefone:" + this.getTelefone());
         System.out.println("CPF:" + this.getCpf());
         System.out.println("Matricula:" + this.getMatricula());
         System.out.println("Nome do Curso:" + this.getCurso());
-        System.out.println("===============================");
+        System.out.println("__________________________________");
     }
 }

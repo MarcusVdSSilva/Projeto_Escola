@@ -23,7 +23,6 @@ public class Professor extends Pessoa{
 
     @Override
     public void mostrarDados(){
-        System.out.println("===========PROFESSOR===========");
         System.out.println("Nome:" + this.getNome());
         System.out.println("Endereço:" + this.getEndereco());
         System.out.println("Telefone:" + this.getTelefone());
@@ -31,6 +30,6 @@ public class Professor extends Pessoa{
         System.out.println("Departamento:" + this.getDeparamento());
         System.out.println("Nome do Curso:" + this.getNomeCurso());
         System.out.println("Salário:" + this.getSalario());
-        System.out.println("===============================");
+        System.out.println("__________________________________");
     }
 }
